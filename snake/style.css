@@ -1,0 +1,82 @@
+body {
+    background: url(https://i.ibb.co/mNNSRCq/0aa3d267951bd82a79beb26b066c8081.jpg);
+}
+
+h1 {    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rebeccapurple;
+    
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+#resetBtn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#startBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#upBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#dowBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#rigBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#lefBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}

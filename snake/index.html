@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta Devoloped by Trei Feske, 2023>
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <h1>Press Start to begin.</h1>
+        <button id="resetBtn">Reset</button>
+        <div id="startGame" class="screen" style="display:block">
+            <button id="startBtn">Start</button>
+        </div>
+        <div>
+            <button id="upBtn" onclick="changeDirection(38)">&#x2191</button>
+            <button id="lefBtn" onclick="changeDirection(37)">&#x2190</button>
+            <button id="rigBtn" onclick="changeDirection(39)">&#x2192</button>
+            <button id="dowBtn" onclick="changeDirection(40)">&#x2193</button>
+        </div>
+    </body>
+</html>  

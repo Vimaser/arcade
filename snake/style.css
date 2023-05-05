@@ -99,3 +99,12 @@ div#btn-container {
     border-radius: 15px;
     cursor: pointer;
 }
+
+#Instruc {
+    font-family: 'Times New Roman', Times, serif
+    font-size: 22px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center center;
+}

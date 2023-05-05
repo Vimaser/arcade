@@ -7,7 +7,7 @@ have our order chosen for us by the game
 CHECKED take turns by dropping our chip into a column on the grid
 CHECKED not be able to drop a chip into a totally filled column
 CHECKED be told when a move causes a player to win, or to draw
-start the game over without having to reset the browser
+CHECKED start the game over without having to reset the browser
 As a user playing a single player game I additionally want to:
 
 see the name 'Computer' displayed as my opponent

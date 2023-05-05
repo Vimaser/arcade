@@ -16,6 +16,7 @@ const LEFT = 37;
 const RIGHT = 39;
 const UP = 38;
 
+//initial state
 let running = false;
 let xVelocity = unitSize;
 let yVelocity = 0;
@@ -44,24 +45,7 @@ startBtn.addEventListener("click", function() {
     gameStart();
 });
 
-
-function startGame() {
-    running = true;
-    score = 0;
-    snake = [        {x:unitSize * 4, y:0},        {x:unitSize * 3, y:0},        {x:unitSize * 2, y:0},        {x:unitSize, y:0},        {x:0, y:0}    ];
-    xVelocity = unitSize;
-    yVelocity = 0;
-    createFood();
-    createPoison();
-    scoreText.textContent = score;
-    clearBoard();
-    drawFood();
-    drawPoison();
-    drawsSnake();
-    nextTick();
-}
-
-
+//render state
 function gameStart(){
     running = true;
     console.log(scoreText)
@@ -74,6 +58,7 @@ function gameStart(){
 }; 
 
 
+//tick
 function nextTick(){
     if(running){
         setTimeout(()=>{
@@ -120,7 +105,7 @@ function drawPoison(){
     ctx.fillRect(poisonX, poisonY, unitSize, unitSize);
 };
 
-
+//same as above
 function moveSnake(){
     const head = {x: snake[0].x + xVelocity,
                   y: snake[0].y + yVelocity};

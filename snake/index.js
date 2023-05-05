@@ -150,12 +150,7 @@ function drawsSnake(){
 
 
 function changeDirection(event, keyCode) {
-    const keyPressed = event ? event.keyCode : keyCode;
-    const LEFT = 37;
-    const UP = 38;
-    const RIGHT = 39;
-    const DOWN = 40;
-  
+    const keyPressed = event ? event.keyCode : keyCode; 
     const goingUP = (yVelocity == -unitSize);
     const goingDOWN = (yVelocity == unitSize);
     const goingRIGHT = (xVelocity == unitSize);
